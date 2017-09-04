@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { NetflixrequestService } from '../netflixrequest.service';
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailComponent implements OnInit {
 
-  constructor() { }
+constructor(private netflixrequest: NetflixrequestService) {}
 
   ngOnInit() {
   }

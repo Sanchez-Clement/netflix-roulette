@@ -1,0 +1,30 @@
+p {
+  color: white;
+
+}
+
+p span {
+  color: rgb(246,0,39);
+
+
+}
+br {
+  margin: 10px;
+}
+
+div {
+  display: flex;
+  flex-flow: row nowrap;
+align-items: center;
+}
+
+section {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+img {
+  padding: 20Px;
+}

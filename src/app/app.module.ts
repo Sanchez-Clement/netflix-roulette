@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
+import { NetflixrequestService } from './netflixrequest.service';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { DetailComponent } from './detail/detail.component';
     FormsModule
 
   ],
-  providers: [],
+  providers: [NetflixrequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

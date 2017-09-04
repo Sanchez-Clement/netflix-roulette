@@ -1,3 +1,12 @@
-<p>
-  detail works!
-</p>
+<div  class="" *ngIf=netflixrequest.results >
+  <section>
+
+
+<p> <span>Catégorie :</span> <br>{{netflixrequest.results['category']}}</p>
+<p><span> Durée:</span>  <br>{{netflixrequest.results['runtime']}}</p>
+<p> <span>Sommaire : </span> <br>{{netflixrequest.results['summary']}}</p>
+
+
+</section>
+<img src="{{netflixrequest.results['poster']}}" alt="">
+</div>
